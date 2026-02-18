@@ -21,17 +21,17 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Login to Amazon ECR
-  run: |
-    aws ecr get-login-password --region ${{ secrets.AWS_REGION }} \
-    | docker login --username AWS \
-    --password-stdin 922778709371.dkr.ecr.eu-north-1.amazonaws.com
-
+        run: |
+          aws ecr get-login-password --region ${{ secrets.AWS_REGION }} \
+          | docker login --username AWS \
+          --password-stdin 922778709371.dkr.ecr.eu-north-1.amazonaws.com
 
       - name: Build Docker Image
         run: |
           docker buildx build \
           --platform linux/amd64 \
           -t telecom-backend:latest \
+          .
           .
 
       - name: Tag Image
