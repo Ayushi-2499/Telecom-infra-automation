@@ -30,7 +30,7 @@ The system acts as a bridge between high-level telecom service requirements and 
 | **Frontend/Templating** | EJS (Embedded JavaScript) |
 | **Environment Mgmt** | Dotenv, Cookie-parser, Multer |
 
-## ✨ Key Features
+##  Key Features
 * **Automated Infrastructure**: Script-based setup of Docker hosts and K8s nodes.
 * **Secure Authentication**: Admin portal protected by JWT and Bcrypt password hashing.
 * **State Management**: Real-time tracking of infrastructure "Reality" vs "Code" using Terraform State.
