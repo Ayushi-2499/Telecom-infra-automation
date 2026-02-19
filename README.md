@@ -1,17 +1,17 @@
-# 🚀 IaC Provisioning for Telecom System
+#  IaC Provisioning for Telecom System
 
 ### **Group No:** D12 - Group 01  
 ### **Project No:** DO-39
 
 ---
 
-## 📝 Project Description
+##  Project Description
 This project focuses on **Automating the Infrastructure Provisioning** for a large-scale Telecom system. By leveraging **Infrastructure as Code (IaC)** tools like Terraform, we eliminate manual configuration errors and ensure a repeatable, scalable environment setup. The project involves deploying local Docker environments and Kubernetes clusters to host critical telecom microservices (e.g., Billing, Network Management) with zero human intervention in the setup phase.
 
-## 🔍 Project Overview
+##  Project Overview
 The system acts as a bridge between high-level telecom service requirements and low-level cloud/local infrastructure. It consists of a **Management Portal** built on Node.js that serves as a control plane. When a deployment is triggered, the system utilizes **GitHub Actions** and **Terraform** to provision the necessary containers and orchestrate them via **Kubernetes**. The entire lifecycle—from code commit to live service—is managed through a robust CI/CD pipeline.
 
-## 🎯 Objectives
+##  Objectives
 * **Automation**: To replace manual server configuration with automated, script-based deployments.
 * **Consistency**: To ensure that the development, testing, and production environments are identical.
 * **Scalability**: To allow the telecom system to handle varying loads by scaling containers dynamically.
@@ -19,7 +19,7 @@ The system acts as a bridge between high-level telecom service requirements and 
 
 
 
-## 💻 Tech Stack
+##  Tech Stack
 
 | Category | Tools/Technologies Used |
 | :--- | :--- |
@@ -39,14 +39,14 @@ The system acts as a bridge between high-level telecom service requirements and 
 
 
 
-## 👥 Group Members
+##  Group Members
 1. Ayushi Pal
 2. Aayushi Solanki
 3. Avdhesh Bhadoriya
 4. Ramji Soni
 5. Kanak Kumari
    
-## 💡 Conclusion
+##  Conclusion
 The **IaC Provisioning for Telecomm System** demonstrates the power of modern DevOps practices in mission-critical industries. By moving away from manual "snowflake" servers to version-controlled infrastructure, we have achieved a setup that is **90% faster** to deploy and significantly more resilient to failures. This project serves as a foundation for building self-healing telecom networks that can scale globally with a single click.
 
 ---
